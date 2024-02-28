@@ -1,6 +1,10 @@
+import sys
 import random
 
-jugador = input("Ingresa piedra, papel o tijera: ")
+
+jugador = str(sys.argv[1])
+
+#jugador = input("Ingresa piedra, papel o tijera: ")
 
 opciones = ['piedra', 'papel', 'tijera']
 
